@@ -1,0 +1,44 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# WebStorm/JetBrains
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Logs
+logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test Coverage
+coverage/
+
+# Build Directory
+build/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Dependency directories
+node_modules/
+.pnp/
+.pnp.js
+
+# Editor directories and files
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
