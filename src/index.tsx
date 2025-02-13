@@ -1,9 +1,12 @@
 import {App} from "./App";
 import {render} from "react-dom";
+import {BrowserRouter} from "react-router-dom";
 
 const container = document.getElementById('root');
 
 render(
-    <App/>,
+    <BrowserRouter>
+        <App/>
+    </BrowserRouter>,
     container
 )
